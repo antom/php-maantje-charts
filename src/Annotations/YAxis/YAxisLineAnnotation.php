@@ -20,7 +20,7 @@ class YAxisLineAnnotation implements Renderable, RendersAfterSeries, YAxisAnnota
         public ?string $yAxis = 'default',
         public string $color = 'yellow',
         public int $size = 2,
-        public ?int $fontSize = null,
+        public null|int|string $fontSize = null,
         public string $dash = 'none',
         public string $label = '',
         public string $labelColor = 'white',

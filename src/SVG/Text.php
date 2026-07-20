@@ -11,7 +11,7 @@ class Text implements Stringable
         protected float $x = 0,
         protected float $y = 0,
         protected string $fontFamily = 'Arial',
-        protected int $fontSize = 16,
+        protected mixed $fontSize = 16,
         protected string $fill = 'black',
         protected string $stroke = 'none',
         protected float $strokeWidth = 0,

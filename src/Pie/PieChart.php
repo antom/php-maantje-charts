@@ -16,7 +16,7 @@ class PieChart
         protected int $size = 400,
         protected array $slices = [],
         public ?string $background = 'white',
-        public int $fontSize = 14,
+        public null|int|string $fontSize = 14,
         public string $fontFamily = 'arial',
         public string $color = 'black',
         ?Closure $formatter = null

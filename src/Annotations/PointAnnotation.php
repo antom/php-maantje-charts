@@ -27,7 +27,7 @@ class PointAnnotation implements Renderable, RendersAfterSeries, YAxisAnnotation
         public int $labelBorderWidth = 0,
         public int $labelOffsetY = 20,
         public int $labelPaddingX = 20,
-        public ?int $fontSize = null,
+        public null|int|string $fontSize = null,
     ) {
         //
     }

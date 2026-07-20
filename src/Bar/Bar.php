@@ -15,7 +15,7 @@ class Bar extends AbstractBar
         string $color = '#3498db',
         ?float $width = 100,
         ?string $labelColor = null,
-        public ?int $fontSize = null,
+        public null|int|string $fontSize = null,
         public ?string $fontFamily = null,
         int $labelMarginY = 30,
         public ?int $radius = null,

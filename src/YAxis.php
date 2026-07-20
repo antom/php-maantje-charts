@@ -20,7 +20,7 @@ class YAxis implements Renderable
         public ?float $maxValue = null,
         public ?string $color = null,
         public array $annotations = [],
-        public int $fontSize = 14,
+        public null|int|string $fontSize = 14,
         public ?string $fontFamily = null,
         public int $labelMargin = 0,
         public int $characterSize = 5,

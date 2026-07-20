@@ -19,7 +19,7 @@ class BarGroup implements BarContract
         protected array $bars = [],
         public ?string $labelColor = null,
         public int $labelMarginY = 30,
-        public ?int $fontSize = null,
+        public null|int|string $fontSize = null,
         public ?int $radius = null,
     ) {
         if (is_null($this->radius)) {

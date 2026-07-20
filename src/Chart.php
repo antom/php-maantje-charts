@@ -32,7 +32,7 @@ class Chart
         protected float $height = 600,
         public ?string $background = 'white',
         public string $color = 'black',
-        public int $fontSize = 14,
+        public null|int|string $fontSize = 14,
         public string $fontFamily = 'arial',
         public Grid $grid = new Grid,
         YAxis|array $yAxis = new YAxis,

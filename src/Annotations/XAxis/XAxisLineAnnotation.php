@@ -15,7 +15,7 @@ class XAxisLineAnnotation implements Renderable, RendersAfterSeries
         public float $x,
         public string $color,
         public int $size = 2,
-        public ?int $fontSize = null,
+        public null|int|string $fontSize = null,
         public string $dash = 'none',
         public string $label = '',
         public string $labelColor = 'white',

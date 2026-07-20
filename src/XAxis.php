@@ -22,7 +22,7 @@ class XAxis implements Renderable
         public ?float $maxValue = null,
         public array $annotations = [],
         public ?string $color = null,
-        public int $fontSize = 14,
+        public null|int|string $fontSize = 14,
         public ?string $fontFamily = null,
         ?Closure $formatter = null
     ) {

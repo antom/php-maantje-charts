@@ -12,7 +12,7 @@ class Slice
         public float $value,
         public string $color,
         public string $label = '',
-        public ?int $fontSize = null,
+        public null|int|string $fontSize = null,
         public ?string $labelColor = null,
         public float $explodeDistance = 0.0,
     ) {}
